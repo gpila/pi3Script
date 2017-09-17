@@ -6,3 +6,5 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 cd pi3Script/
 cp ./.vimrc ~/
 cp ./.zsh_history ~/
+sudo apt-get -y install console-data
+sudo loadkeys it
